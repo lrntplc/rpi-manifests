@@ -1,0 +1,6 @@
+<manifest>
+<remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
+<default revision="refs/heads/master" remote="yoctoproject" sync-j="8"/>
+<project name="sources/poky" remote="yoctoproject" path="poky"/>
+<project name="sources/poky/meta-openembedded" remote="yoctoproject" path="meta-openembedded"/>
+</manifest>
