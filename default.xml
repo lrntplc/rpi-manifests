@@ -3,16 +3,14 @@
 <manifest>
 <default revision="refs/heads/master" sync-j="4"/>
 
-<remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
-<remote name="oe"			fetch="git://git.openembedded.org"/>
-<remote name="homeassist"	fetch="https://github.com/bachp"/>
+<remote name="yoctoproject" fetch="https://git.yoctoproject.org"/>
+<remote name="oe"           fetch="https://git.openembedded.org"/>
+<remote name="homeassist"   fetch="https://github.com/bachp"/>
 
 
-<project name="poky"				remote="yoctoproject"	path="sources/poky"/>
-<project name="meta-security"		remote="yoctoproject"	path="sources/poky/meta-security"/>
-<project name="meta-raspberrypi"	remote="yoctoproject"	path="sources/poky/meta-raspberrypi"/>
-
-<project name="meta-openembedded"	remote="oe"				path="sources/poky/meta-openembedded"/>
-
-<project name="meta-homeassistant"	remote="homeassist"		path="sources/poky/meta-homeassistant"/>
+<project name="poky"                remote="yoctoproject"    path="sources/poky"/>
+<project name="meta-security"       remote="yoctoproject"    path="sources/poky/meta-security"/>
+<project name="meta-raspberrypi"    remote="yoctoproject"    path="sources/poky/meta-raspberrypi"/>
+<project name="meta-openembedded"   remote="oe"              path="sources/poky/meta-openembedded"/>
+<project name="meta-homeassistant"  remote="homeassist"      path="sources/poky/meta-homeassistant"/>
 </manifest>
